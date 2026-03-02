@@ -11,7 +11,7 @@ numpy>=1.24.0,<2.0.0
 opencv-python-headless
 
 # Utilities
-tqdm==4.66.1
+tqdm==4.66.3
 Pillow==10.1.0
 
 # YouTube Upload
