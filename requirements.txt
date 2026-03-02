@@ -1,5 +1,5 @@
 # --- CORE REQUIREMENTS ---
-opencv-python
+opencv-python  # Note for Linux/VPS users: if you get a 'libGL.so.1' error, either run 'sudo apt install libgl1-mesa-glx' or replace this line with 'opencv-python-headless'
 # [CRITICAL] Numpy must be exactly 1.26.1 for Watermark Logic to interact with OpenCV correctly. DO NOT UPGRADE.
 numpy==1.26.1
 google-generativeai
@@ -9,13 +9,31 @@ httpx
 yt-dlp
 gradio
 Pillow
-
+requests
+protobuf
+pyasn1
+python-multipart
+setuptools
+tqdm
+urllib3
 # --- AUDIO & VIDEO PROCESSING ---
 # (Note: FFmpeg is required to be installed on the OS system path)
 # The engine uses raw subprocess FFmpeg calls instead of moviepy for max performance
 
-# --- BACKGROUND TASKS ---
+# --- BACKGROUND TASKS & HEALTH ---
 apscheduler
+psutil
+
+# --- UPLOADER & CLOUD APIS ---
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+
+# --- TEXT TO SPEECH (TTS) ---
+gTTS
+edge-tts
+# azure-cognitiveservices-speech  # Optional: For premium Azure TTS
+# kokoro  # Optional: For Kokoro-82M TTS
 
 # --- DATA MANIPULATION & AI MODULES (Optional/Advanced) ---
 pandas
