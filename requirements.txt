@@ -25,20 +25,18 @@ scikit-learn
 #basicsr
 #gfpgan
 
-"""
 # ======= STABLE FALLBACK VERSIONS =======
-opencv-python==4.8.1.78
+# opencv-python==4.8.1.78
 # [CRITICAL] Numpy must be exactly 1.26.1 for Watermark Logic to interact with OpenCV correctly. DO NOT UPGRADE.
-numpy==1.26.1
-google-generativeai==0.8.5
-python-dotenv==1.0.0
-python-telegram-bot==21.0
-httpx==0.28.1
-yt-dlp==2026.2.21
-gradio==6.3.0
-apscheduler==3.10.4
-Pillow==10.1.0
-pandas==2.2.2
-scikit-learn==1.5.0
-torch==2.10.0
-"""
+# numpy==1.26.1
+# google-generativeai==0.8.5
+# python-dotenv==1.0.0
+# python-telegram-bot==21.0
+# httpx==0.28.1
+# yt-dlp==2026.2.21
+# gradio==6.3.0
+# apscheduler==3.10.4
+# Pillow>=10.3.0
+# pandas==2.2.2
+# scikit-learn==1.5.0
+# torch==2.10.0
