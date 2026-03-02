@@ -1,0 +1,24 @@
+
+# Presets Cache
+CACHED_PRESETS = None
+PRESETS_LOCK = threading.Lock()
+
+def get_presets():
+    global CACHED_PRESETS
+    with PRESETS_LOCK:
+        if CACHED_PRESETS is not None:
+            return CACHED_PRESETS
+        
+        try:
+            if os.path.exists("title_expansion_presets.json"):
+                with open("title_expansion_presets.json", "r", encoding="utf-8") as f:
+                    CACHED_PRESETS = json.load(f)
+                logger.info(f"✅ Loaded {len(CACHED_PRESETS)} title expansion presets.")
+            else:
+                logger.warning("⚠️ presets file not found, using empty.")
+                CACHED_PRESETS = {}
+        except Exception as e:
+            logger.error(f"❌ Failed to load presets: {e}")
+            return {}
+            
+        return CACHED_PRESETS

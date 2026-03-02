@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Secrets & Credentials
+*client_secret*.json
+token.json
+*credentials*.json
+Credentials/*.json
+
+# Project Specific Data
+temp/
+jobs/
+downloads/
+Original_audio/
+final_compilations/
+Processed Shorts/
+debug_frames/
+temp_watermark/
+logs/
+*.log
+
+# Caches
+Processed_Cache/
+.gradio/
+.pytest_cache/
+
+# Models
+models/
+*.pt
+*.pth
+*.onnx
+
+# Media
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mkv
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

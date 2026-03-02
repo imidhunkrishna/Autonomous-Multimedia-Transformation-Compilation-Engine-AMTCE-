@@ -1,0 +1,26 @@
+# Core Dependencies
+python-telegram-bot==21.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Video Processing
+yt-dlp==2024.4.9
+numpy>=1.24.0,<2.0.0
+# Use headless OpenCV for server/termux environments to avoid GUI deps
+# Unpinned to allow pip to find compatible aarch64 wheels (fixes Termux build crash)
+opencv-python-headless
+
+# Utilities
+tqdm==4.66.1
+Pillow==10.1.0
+
+# YouTube Upload
+google-api-python-client==2.108.0
+google-auth-oauthlib==1.1.0
+# google-auth-httplib2 removed (using requests transport)
+
+# AI Caption & Audio Generation
+google-generativeai>=0.8.3
+kokoro>=0.1.0
+soundfile
+torch

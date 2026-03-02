@@ -1,0 +1,29 @@
+{
+  "gemini_vision_detect": {
+    "name": "gemini_vision_detect",
+    "attempts": 15,
+    "success": 15,
+    "fail": 0,
+    "success_rate": 1.0,
+    "disabled": false,
+    "last_updated": "2025-12-13 07:11:39.758896"
+  },
+  "watermark_removal": {
+    "name": "watermark_removal",
+    "attempts": 61,
+    "success": 58,
+    "fail": 3,
+    "success_rate": 0.9508196721311475,
+    "disabled": false,
+    "last_updated": "2026-03-03T01:03:50.364650"
+  },
+  "heavy_remix": {
+    "name": "heavy_remix",
+    "attempts": 61,
+    "success": 61,
+    "fail": 0,
+    "success_rate": 1.0,
+    "disabled": false,
+    "last_updated": "2026-03-03T01:03:52.528016"
+  }
+}

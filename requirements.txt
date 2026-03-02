@@ -1,0 +1,44 @@
+# --- CORE REQUIREMENTS ---
+opencv-python
+# [CRITICAL] Numpy must be exactly 1.26.1 for Watermark Logic to interact with OpenCV correctly. DO NOT UPGRADE.
+numpy==1.26.1
+google-generativeai
+python-dotenv
+python-telegram-bot[job-queue]
+httpx
+yt-dlp
+gradio
+Pillow
+
+# --- AUDIO & VIDEO PROCESSING ---
+# (Note: FFmpeg is required to be installed on the OS system path)
+# The engine uses raw subprocess FFmpeg calls instead of moviepy for max performance
+
+# --- BACKGROUND TASKS ---
+apscheduler
+
+# --- DATA MANIPULATION & AI MODULES (Optional/Advanced) ---
+pandas
+scikit-learn
+#torch
+#realesrgan
+#basicsr
+#gfpgan
+
+"""
+# ======= STABLE FALLBACK VERSIONS =======
+opencv-python==4.8.1.78
+# [CRITICAL] Numpy must be exactly 1.26.1 for Watermark Logic to interact with OpenCV correctly. DO NOT UPGRADE.
+numpy==1.26.1
+google-generativeai==0.8.5
+python-dotenv==1.0.0
+python-telegram-bot==21.0
+httpx==0.28.1
+yt-dlp==2026.2.21
+gradio==6.3.0
+apscheduler==3.10.4
+Pillow==10.1.0
+pandas==2.2.2
+scikit-learn==1.5.0
+torch==2.10.0
+"""

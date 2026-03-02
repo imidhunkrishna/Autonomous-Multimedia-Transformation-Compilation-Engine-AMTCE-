@@ -1,0 +1,9 @@
+# Watermark Modules Dependencies
+opencv-python
+numpy
+python-dotenv
+google-generativeai
+gradio
+python-telegram-bot
+Pillow
+onnxruntime
