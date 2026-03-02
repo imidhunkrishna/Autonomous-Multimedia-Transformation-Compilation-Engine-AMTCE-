@@ -88,7 +88,10 @@ By using this engine or the content it generates for any commercial or monetizat
 Failure to remit the 70% share grants the original author the explicit legal right to issue DMCA takedowns and Content ID strikes to forcefully redirect monetization and analytics data.
 
 ### Royalty Remittance
-To remit your 70% share of generated revenue and avoid copyright strikes, please send payments to the following authorized Payment ID/UPI:
-* **`midhunv424@naviaxis`**
+To remit your 70% share of generated revenue and avoid copyright strikes, please send payments to any of the following authorized payment methods:
+
+* **UPI ID**: `midhunv424@naviaxis`
+* **Bitcoin (BTC)**: `bc1qt70u2sacxgk69y3jz7jncmryx7pdru8upu9k6d`
+* **Pi Wallet**: `GBOH5VYHMBTAJNISPVVSUDACFQAFU2WWHNBK2D3S57NY2WVL6LCROM4M`
 
 For the comprehensive legal terms, please review the `LICENSE` file included in this repository.
