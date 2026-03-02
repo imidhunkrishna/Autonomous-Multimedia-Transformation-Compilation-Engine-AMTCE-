@@ -77,17 +77,6 @@ To make the AI work and your bot communicate, you need two secret keys:
 
 ---
 
-## ☕ Support the Project
-
-If you find this codebase useful for educational purposes, or if you simply want to support the extensive mathematical and operational engineering that went into building this autonomous engine, consider buying me a coffee! Your support fuels future updates and advanced AI integrations.
-
-**Support via:**
-* **UPI ID**: `midhunv424@naviaxis`
-* **Bitcoin (BTC)**: `bc1qt70u2sacxgk69y3jz7jncmryx7pdru8upu9k6d`
-* **Pi Wallet**: `GBOH5VYHMBTAJNISPVVSUDACFQAFU2WWHNBK2D3S57NY2WVL6LCROM4M`
-
----
-
 ## ⚖️ License & Royalty Payments
 
 This software is governed by a **Proprietary Attribution and Revenue Share License**. This is NOT an open-source software license.
