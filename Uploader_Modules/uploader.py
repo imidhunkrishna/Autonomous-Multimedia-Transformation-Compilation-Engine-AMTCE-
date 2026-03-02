@@ -274,7 +274,14 @@ def _upload_sync(
         
     logger.info(f"📋 Final Title for Upload: '{final_title}'")
         
-    final_description = ((description or "").strip() + ("\n\n" + hashtags if hashtags else "")).strip()
+    DISCLAIMER = (
+        "\n\n---"
+        "\nCopyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" "
+        "for purposes such as criticism, commenting, news reporting, teaching, scholarship, and research. "
+        "Fair use is a use permitted by copyright statute that might otherwise be infringing. "
+        "Non-profit, educational or personal use tips the balance in favor of fair use."
+    )
+    final_description = ((description or "").strip() + ("\n\n" + hashtags if hashtags else "")).strip() + DISCLAIMER
 
     status_dict = {
         "privacyStatus": privacy,
