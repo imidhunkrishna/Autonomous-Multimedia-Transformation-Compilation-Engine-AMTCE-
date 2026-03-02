@@ -12,7 +12,7 @@ opencv-python-headless
 
 # Utilities
 tqdm==4.66.1
-Pillow==10.1.0
+Pillow==12.1.1
 
 # YouTube Upload
 google-api-python-client==2.108.0
