@@ -86,3 +86,9 @@ If you find this codebase useful for educational purposes, or if you simply want
 * **UPI ID**: `midhunv424@naviaxis`
 * **Bitcoin (BTC)**: `bc1qt70u2sacxgk69y3jz7jncmryx7pdru8upu9k6d`
 * **Pi Wallet**: `GBOH5VYHMBTAJNISPVVSUDACFQAFU2WWHNBK2D3S57NY2WVL6LCROM4M`
+
+---
+
+## ⚖️ License
+
+Please carefully review the `LICENSE` file in this repository for full terms regarding commercial use, output monetization, and royalty structures.
