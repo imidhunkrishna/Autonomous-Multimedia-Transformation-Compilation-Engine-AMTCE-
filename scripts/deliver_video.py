@@ -16,9 +16,11 @@ import sys
 import io
 import time
 from telegram import Bot
+from dotenv import load_dotenv
 
 # Add current dir to path to import local modules
 sys.path.append(os.getcwd())
+load_dotenv('Credentials/.env')
 
 class ChunkedProgressFile(io.RawIOBase):
     def __init__(self, filename, logger_func, chunk_size=64*1024):
@@ -53,8 +55,13 @@ class ChunkedProgressFile(io.RawIOBase):
     def __exit__(self, *args): self.close()
 
 async def send():
-    token = '8362783603:AAHKdh3Gae7xkuB3VGQmjfpiVkkPpYXlEOE'
-    chat_id = '1363193987'
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("chat_id")
+    
+    if not token or not chat_id:
+        print("ERROR: Missing TELEGRAM_BOT_TOKEN or chat_id in Credentials/.env")
+        return
+        
     video_path = r'D:\whatsupneyork\Processed Shorts\Pooja_hedge_3.mp4'
     
     if not os.path.exists(video_path):
